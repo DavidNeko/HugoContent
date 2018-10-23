@@ -43,6 +43,7 @@
     
     <script src="https://davidneko.github.io/js/hux-blog.min.js"></script>
 </head>
+
 </head>
 
 <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
@@ -432,6 +433,26 @@ cd ..
 
 
 
+
+
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script> 
+<div id="gitalk-container"></div>     <script type="text/javascript">
+    var gitalk = new Gitalk({
+
+    
+		clientID: `2e2012c68c849a7a5472`,
+		clientSecret: `d7db035e35abf97ef2ebda3891498ceb9270be2d`,
+		repo: `HugoContent`,
+		owner: 'DavidNeko',
+		admin: ['DavidNeko'],
+		id: 'comment',
+    
+    });
+    gitalk.render('gitalk-container');
+</script> 
+
+
             </div>
             
             <div class="
@@ -525,7 +546,7 @@ cd ..
 		    
                 </ul>
 		<p class="copyright text-muted">
-                    Copyright &copy; Dav Blog , 2018
+            Copyright &copy; Dav Blog , 2018
                 </p>
             </div>
         </div>
