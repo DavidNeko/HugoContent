@@ -64,5 +64,14 @@
  确保网站在本地可以运行，在本地终端执行hugo server或hugo server -t &amp;lt;YOURTHEME&amp;gt;后用浏览器打开http://localhost:1313</description>
     </item>
     
+    <item>
+      <title>时隔2年的更新</title>
+      <link>https://davidneko.github.io/post/post_0003/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidneko.github.io/post/post_0003/</guid>
+      <description> 首先push个东西上github试一下。 </description>
+    </item>
+    
   </channel>
 </rss>

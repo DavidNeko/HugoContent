@@ -55,6 +55,11 @@
   </url>
   
   <url>
+    <loc>https://davidneko.github.io/categories/life/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://davidneko.github.io/post/</loc>
     <lastmod>2018-10-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -82,6 +87,10 @@
     <loc>https://davidneko.github.io/categories/tech/</loc>
     <lastmod>2018-10-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://davidneko.github.io/post/post_0003/</loc>
   </url>
   
 </urlset>
