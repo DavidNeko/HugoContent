@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Dav Blog</title>
@@ -6,10 +6,33 @@
     <description>Recent content in Tags on Dav Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 31 Oct 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://davidneko.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Books</title>
+      <link>https://davidneko.github.io/tags/books/</link>
+      <pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidneko.github.io/tags/books/</guid>
+      <description></description>
+    </item>
     
-	<atom:link href="https://davidneko.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ReadingNote</title>
+      <link>https://davidneko.github.io/tags/readingnote/</link>
+      <pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidneko.github.io/tags/readingnote/</guid>
+      <description></description>
+    </item>
     
+    <item>
+      <title>SoftSkills</title>
+      <link>https://davidneko.github.io/tags/softskills/</link>
+      <pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidneko.github.io/tags/softskills/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Blog</title>
@@ -17,15 +40,6 @@
       <pubDate>Fri, 19 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>https://davidneko.github.io/tags/blog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Books</title>
-      <link>https://davidneko.github.io/tags/books/</link>
-      <pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidneko.github.io/tags/books/</guid>
       <description></description>
     </item>
     
@@ -44,24 +58,6 @@
       <pubDate>Fri, 19 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>https://davidneko.github.io/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Readingnote</title>
-      <link>https://davidneko.github.io/tags/readingnote/</link>
-      <pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidneko.github.io/tags/readingnote/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Softskills</title>
-      <link>https://davidneko.github.io/tags/softskills/</link>
-      <pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidneko.github.io/tags/softskills/</guid>
       <description></description>
     </item>
     

@@ -43,7 +43,6 @@
     
     <script src="https://davidneko.github.io/js/hux-blog.min.js"></script>
 </head>
-
 </head>
 
 <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
@@ -306,91 +305,89 @@ $(function() {
 
         		
         		
-        		
-
-<!-- Contents -->
-
+        		<!-- raw HTML omitted -->
 <h2 id="前期准备">前期准备</h2>
-
 <p>要在Github上部署静态博客，首先需要准备好：</p>
-
 <ul>
-<li><p>Github账号</p>
-
+<li>
+<p>Github账号</p>
 <ul>
-<li><a href="https://github.com/join">Github免费注册</a>
-<br /></li>
-</ul></li>
-
-<li><p>在本地开发环境安装Hugo并准备好要发布的网页</p>
-
+<li><a href="https://github.com/join">Github免费注册</a></li>
+</ul>
+</li>
+<li>
+<p>在本地开发环境安装Hugo并准备好要发布的网页</p>
 <ul>
-<li><p><a href="https://gohugo.io/getting-started/installing">Hugo安装指南</a></p></li>
-
-<li><p><a href="https://gohugo.io/getting-started/quick-start/">Hugo Quick Start: Create a Hugo site using the beautiful Ananke theme</a></p></li>
-</ul></li>
-
-<li><p>在本地开发环境安装 Git 2.8 或更高版本</p>
-
+<li>
+<p><a href="https://gohugo.io/getting-started/installing">Hugo安装指南</a></p>
+</li>
+<li>
+<p><a href="https://gohugo.io/getting-started/quick-start/">Hugo Quick Start: Create a Hugo site using the beautiful Ananke theme</a></p>
+</li>
+</ul>
+</li>
+<li>
+<p>在本地开发环境安装 Git 2.8 或更高版本</p>
 <ul>
 <li><a href="https://git-scm.com/downloads">Git下载</a></li>
-</ul></li>
 </ul>
-
+</li>
+</ul>
 <h2 id="github-页面种类">Github 页面种类</h2>
-
 <p>有两种Github页面可供选择：</p>
-
 <ul>
-<li><p>个人/组织页面</p>
-
-<p>(<code>https://&lt;USERNAME|ORGANIZATION&gt;.github.io/</code>)</p></li>
-
-<li><p>项目页面</p>
-
-<p>(<code>https://&lt;USERNAME|ORGANIZATION&gt;.github.io/&lt;PROJECT&gt;/</code>)</p></li>
+<li>
+<p>个人/组织页面</p>
+<p>(<code>https://&lt;USERNAME|ORGANIZATION&gt;.github.io/</code>)</p>
+</li>
+<li>
+<p>项目页面</p>
+<p>(<code>https://&lt;USERNAME|ORGANIZATION&gt;.github.io/&lt;PROJECT&gt;/</code>)</p>
+</li>
 </ul>
-
 <p>参考<a href="https://help.github.com/articles/user-organization-and-project-pages/#user--organization-pages">Github页面文档</a>以便决定你将要部署的页面类型，这里选择比较简单的个人组织页面类型作为示例</p>
-
-<h2 id="个人-组织页面建立的分步教学">个人/组织页面建立的分步教学</h2>
-
+<h2 id="个人组织页面建立的分步教学">个人/组织页面建立的分步教学</h2>
 <p>首先，个人/组织页面和项目页面的差别是：</p>
-
 <ol>
-<li><p>必须用<code>&lt;USERNAME&gt;.github.io</code>来托管你用Hugo生成的内容</p></li>
-
-<li><p>在<code>master</code>分支下的内容会被公开发布到你的Github主页上</p></li>
+<li>
+<p>必须用<code>&lt;USERNAME&gt;.github.io</code>来托管你用Hugo生成的内容</p>
+</li>
+<li>
+<p>在<code>master</code>分支下的内容会被公开发布到你的Github主页上</p>
+</li>
 </ol>
-
 <h3 id="分步教学">分步教学</h3>
-
 <ol>
-<li><p>在Github上建立一个<code>&lt;YOUR-PROJECT&gt;</code>项目分支(例如，blog)，这个分支会包含你的Hugo页面内容以及其他源文件</p></li>
-
-<li><p>在Github上建立一个<code>&lt;USERNAME&gt;.github.io</code>，替换<code>&lt;USERNAME&gt;</code>为你的Github用户名。这个分支会包含你的Hugo页面的渲染版本。</p></li>
-
-<li><p>在本地终端执行<code>git clone &lt;YOUR-PROJECT-URL&gt; &amp;&amp; cd &lt;YOUR-PROJECT&gt;</code> ，克隆你在步骤1里建立的项目</p></li>
-
-<li><p>确保网站在本地可以运行，在本地终端执行<code>hugo server</code>或<code>hugo server -t &lt;YOURTHEME&gt;</code>后用浏览器打开<a href="http://localhost:1313">http://localhost:1313</a></p></li>
-
-<li><p>确保网站内容可以发布后</p>
-
+<li>
+<p>在Github上建立一个<code>&lt;YOUR-PROJECT&gt;</code>项目分支(例如，blog)，这个分支会包含你的Hugo页面内容以及其他源文件</p>
+</li>
+<li>
+<p>在Github上建立一个<code>&lt;USERNAME&gt;.github.io</code>，替换<code>&lt;USERNAME&gt;</code>为你的Github用户名。这个分支会包含你的Hugo页面的渲染版本。</p>
+</li>
+<li>
+<p>在本地终端执行<code>git clone &lt;YOUR-PROJECT-URL&gt; &amp;&amp; cd &lt;YOUR-PROJECT&gt;</code> ，克隆你在步骤1里建立的项目</p>
+</li>
+<li>
+<p>确保网站在本地可以运行，在本地终端执行<code>hugo server</code>或<code>hugo server -t &lt;YOURTHEME&gt;</code>后用浏览器打开http://localhost:1313</p>
+</li>
+<li>
+<p>确保网站内容可以发布后</p>
 <ul>
-<li><p>按<code>CTRL+C</code>来终止服务器</p></li>
-
-<li><p>执行<code>rm -rf public</code>移除<code>public</code>文件夹下全部内容（没有则可忽略）</p></li>
-</ul></li>
-
-<li><p>执行<code>git submodule add -b master git@github.com:&lt;USERNAME&gt;/&lt;USERNAME&gt;.github.io.git public</code> 创建git <a href="https://blog.github.com/2016-02-01-working-with-submodules/">子模块</a>。现在当你再执行<code>hugo</code>命令来部署网站到&rsquo;public&rsquo;时，建立的<code>public</code>目录则会在一个不同的Github分支下运作。</p></li>
+<li>
+<p>按<code>CTRL+C</code>来终止服务器</p>
+</li>
+<li>
+<p>执行<code>rm -rf public</code>移除<code>public</code>文件夹下全部内容（没有则可忽略）</p>
+</li>
+</ul>
+</li>
+<li>
+<p>执行<code>git submodule add -b master git@github.com:&lt;USERNAME&gt;/&lt;USERNAME&gt;.github.io.git public</code> 创建git <a href="https://blog.github.com/2016-02-01-working-with-submodules/">子模块</a>。现在当你再执行<code>hugo</code>命令来部署网站到&rsquo;public&rsquo;时，建立的<code>public</code>目录则会在一个不同的Github分支下运作。</p>
+</li>
 </ol>
-
 <h3 id="建立一键发布的脚本">建立一键发布的脚本</h3>
-
 <p>现在，部署页面已经基本完成，你可以建立一个<code>deploy.sh</code>脚本来帮助你快速发布页面在Github上，使用<code>chmod +x deploy.sh</code>来确保脚本可运行。</p>
-
 <p>下面是脚本<code>deploy.sh</code>的内容：</p>
-
 <pre><code>#!/bin/bash
 
 echo -e &quot;\033[0;32mDeploying updates to GitHub...\033[0m&quot;
@@ -415,16 +412,10 @@ git push origin master
 
 # Come Back up to the Project Root
 cd ..
-</code></pre>
-
-<p>你可以执行<code>./deploy.sh &quot;你的commit内容&quot;</code>来将页面更改发布到<code>&lt;USERNAME&gt;.github.io</code>, 注意这里也要将更改commit到步骤1里建立的<code>&lt;YOUR-PROJECT&gt;</code>项目分支中。</p>
-
+</code></pre><p>你可以执行<code>./deploy.sh &quot;你的commit内容&quot;</code>来将页面更改发布到<code>&lt;USERNAME&gt;.github.io</code>, 注意这里也要将更改commit到步骤1里建立的<code>&lt;YOUR-PROJECT&gt;</code>项目分支中。</p>
 <h3 id="大功告成">大功告成</h3>
-
 <p>现在如果你打开<code>https://&lt;USERNAME&gt;.github.io</code>，则会发现你的页面已经成功部署！</p>
-
 <h2 id="本文参考链接">本文参考链接</h2>
-
 <p><a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">Hugo官方教学：如何将页面部署到Github上</a></p>
 
         
@@ -433,36 +424,16 @@ cd ..
               <hr>
               <ul class="pager">
                   
-                  <li class="previous">
-                      <a href="/post/post_0002/" data-toggle="tooltip" data-placement="top" title="Reading note - Soft skills - 01">&larr; Previous Post</a>
-                  </li>
                   
+                  <li class="next">
+                      <a href="/post/post_0002/" data-toggle="tooltip" data-placement="top" title="Reading note - Soft skills - 01">Next Post &rarr;</a>
+                  </li>
                   
               </ul>
   
               
 <div id="disqus-comment"></div>
 
-
-
-
-
-<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script> 
-<div id="gitalk-container"></div>     <script type="text/javascript">
-    var gitalk = new Gitalk({
-
-    
-		clientID: `2e2012c68c849a7a5472`,
-		clientSecret: `d7db035e35abf97ef2ebda3891498ceb9270be2d`,
-		repo: `HugoContent`,
-		owner: 'DavidNeko',
-		admin: ['DavidNeko'],
-		id: 'comment',
-    
-    });
-    gitalk.render('gitalk-container');
-</script> 
 
 
             </div>
@@ -564,7 +535,14 @@ cd ..
 		    
                 </ul>
 		<p class="copyright text-muted">
-            Copyright &copy; Dav Blog , 2018
+                    Copyright &copy; Dav Blog , 2018
+                    <br>
+                    <a href="https://themes.gohugo.io/hugo-theme-cleanwhite">CleanWhite Hugo Theme</a> by <a href="https://zhaohuabing.com">Huabing</a> |
+                    <iframe
+                        style="margin-left: 2px; margin-bottom:-5px;"
+                        frameborder="0" scrolling="0" width="100px" height="20px"
+                        src="https://ghbtns.com/github-btn.html?user=zhaohuabing&repo=hugo-theme-cleanwhite&type=star&count=true" >
+                    </iframe>
                 </p>
             </div>
         </div>
