@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computational Thinking on Dav Blog</title>
+    <link>https://davidneko.github.io/tags/computational-thinking/</link>
+    <description>Recent content in Computational Thinking on Dav Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 17 Apr 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://davidneko.github.io/tags/computational-thinking/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>论文阅读笔记_001</title>
+      <link>https://davidneko.github.io/post/post_0004/</link>
+      <pubDate>Sat, 17 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidneko.github.io/post/post_0004/</guid>
+      <description>Computational Thinking in K–12: A Review of the State of the Field &amp;mdash; K-12中的计算思维：领域现状回顾 K-12： 幼儿园+小学+中学教育合在一起的统称，多用于美国、加拿大以及澳大利亚的部分地区。
+Abstract 本文通过研究最近发表的大部分以Jeannette Wing的文章为跳板的学术文献，确定了K-12教育中计算思维的讨论现状，找出了研究中的差距，并阐明了未来研究的优先事项。
+Introduction 以下各节主要研究最近发表的、突出的、以Wing的文章为跳板的学术文献。文章还将报告围绕K-12中计算教育的主要工作。
+鉴于CT作为一个词组的定义混乱，以及它对学校教育的必要性，下一节深入探讨了CT的不同观点和不断发展的定义，在学童中建设CT的理由，以及针对学校CT的常见批评。然后，文章调查了最近对CT的研究(包括一些不使用计算性思维这个词本身，但仍然考察儿童计算能力的研究)，各种被认为能促进CT发展的环境和工具，并对试图评估CT的研究进行了评价。 最后，文章根据当前研究中的空白，列出了扩大K-12 CT讨论的优先事项。本文通过研究最近发表的大部分学术文献，以Wing的文章为跳板，确定了研究中的空白，并阐明了未来研究的优先事项，从而为K-12教育中关于计算思维的讨论现状提供了框架。
+The What and Why of Computational Thinking 根据Wing(2006)的说法，&amp;rdquo;计算思维包括通过借鉴计算机科学的基本概念来解决问题、设计系统和理解人类行为&amp;rdquo;(第33页)。CT的本质是在面对问题时像计算机科学家一样思考。
+早期的CT概念侧重于程序性思维和编程，虽然这个概念没错，但在workshop上被学者们重新审视，结合了几个计算机科学的核心概念后，此概念的范围被扩大，且超越了“单纯的编程”。workshop中也存在着几个尚未解决的核心问题：
+ 如何识别CT？ 在儿童中推广CT的最佳教育方法是什么？ 能否合理地将编程、计算机和CT分开？  在2011年，Wing对CT的定义加以完善后，定义CT为“在制定问题及其解决方案时所涉及的思维过程，以便解决方案以一种可以由信息处理代理（information-processing agent/可理解为计算机）有效执行的形式来表示&amp;rdquo;
+Aho(2012)进一步简化了这一定义，将CT定义为在提出问题时所涉及的思维过程，以便 &amp;ldquo;其解决方案可以被表示为计算步骤和算法&amp;ldquo;。
+同在2012年，英国皇家学会也为CT提供了定义：”计算性思维是在我们周围的世界中认识计算的各个方面，并运用 计算机科学中的工具和技术，以了解和辩证性地看待自然和人工系统和过程。“
+ 维基百科的解释：计算思维/运算思维
+ 计算思维的另一个特征是基于三个阶段的“3A”迭代过程：
+ 抽象（Abstraction）：问题表示； 自动化（Automation）：解决方案表达； 分析（Analyses）：解决方案执行和评估。   在美国大学委员会的试点课程中，提出了computing的7个思想：
+ 计算是人类的创造性活动。 抽象化减少信息和细节，把重点放在与理解和解决问题有关的概念上。 数据和信息有助于创造知识。 算法是开发和表达计算问题解决方案的工具。 编程是一个产生计算产品的创造性过程。 数字设备、系统以及将它们相互连接的网络使人们能够并促进以计算方法解决问题。 计算使其他领域的创新成为可能，包括科学、社会科学、人文、艺术、医学、工程和商业。  在2000年，diSessa提出了一个概念叫”computational literacy&amp;rdquo; 中文也可以翻译成“计算素养”，但现今与CT经常交替使用，二者概念也相对接近。1980年B. A. Sheil 在 Xerox PARC也提出了“procedural literacy&amp;rdquo;(中文翻译为程序素养)的概念，但和CT也无太大差别。</description>
+    </item>
+    
+  </channel>
+</rss>

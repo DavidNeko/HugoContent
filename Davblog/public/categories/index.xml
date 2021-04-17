@@ -6,17 +6,16 @@
     <description>Recent content in Categories on Dav Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 31 Oct 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://davidneko.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Book</title>
-      <link>https://davidneko.github.io/categories/book/</link>
-      <pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate>
+      <title>Learning</title>
+      <link>https://davidneko.github.io/categories/learning/</link>
+      <pubDate>Sat, 17 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://davidneko.github.io/categories/book/</guid>
+      <guid>https://davidneko.github.io/categories/learning/</guid>
       <description></description>
     </item>
     
