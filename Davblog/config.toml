@@ -8,6 +8,7 @@ googleAnalytics = "UA-127976457-1"
 # preserveTaxonomyNames = true
 # paginate = 5 #frontpage pagination
 # hasCJKLanguage = true
+hasCJKLanguage = true
 
 [outputs]
 home = ["HTML", "RSS", "Algolia"]

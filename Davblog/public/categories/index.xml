@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Dav Blog</title>
@@ -6,7 +6,6 @@
     <description>Recent content in Categories on Dav Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-<<<<<<< HEAD
     
 	<atom:link href="https://davidneko.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -17,24 +16,15 @@
       <pubDate>Sat, 17 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://davidneko.github.io/categories/learning/</guid>
-=======
-    <lastBuildDate>Fri, 16 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://davidneko.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+      <description></description>
+    </item>
+    
     <item>
       <title>Life</title>
       <link>https://davidneko.github.io/categories/life/</link>
       <pubDate>Fri, 16 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://davidneko.github.io/categories/life/</guid>
->>>>>>> 035c200fd7a27b7125aed1b4e8156f8573b39c50
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Learning</title>
-      <link>https://davidneko.github.io/categories/learning/</link>
-      <pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidneko.github.io/categories/learning/</guid>
       <description></description>
     </item>
     

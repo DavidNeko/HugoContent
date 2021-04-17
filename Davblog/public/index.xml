@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dav Blog</title>
@@ -6,7 +6,6 @@
     <description>Recent content on Dav Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-<<<<<<< HEAD
     <lastBuildDate>Sat, 17 Apr 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://davidneko.github.io/index.xml" rel="self" type="application/rss+xml" />
@@ -18,42 +17,16 @@
       <pubDate>Sat, 17 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://davidneko.github.io/post/post_0004/</guid>
-      <description>Computational Thinking in K–12: A Review of the State of the Field &amp;mdash; K-12中的计算思维：领域现状回顾 K-12： 幼儿园+小学+中学教育合在一起的统称，多用于美国、加拿大以及澳大利亚的部分地区。
-Abstract 本文通过研究最近发表的大部分以Jeannette Wing的文章为跳板的学术文献，确定了K-12教育中计算思维的讨论现状，找出了研究中的差距，并阐明了未来研究的优先事项。
-Introduction 以下各节主要研究最近发表的、突出的、以Wing的文章为跳板的学术文献。文章还将报告围绕K-12中计算教育的主要工作。
-鉴于CT作为一个词组的定义混乱，以及它对学校教育的必要性，下一节深入探讨了CT的不同观点和不断发展的定义，在学童中建设CT的理由，以及针对学校CT的常见批评。然后，文章调查了最近对CT的研究(包括一些不使用计算性思维这个词本身，但仍然考察儿童计算能力的研究)，各种被认为能促进CT发展的环境和工具，并对试图评估CT的研究进行了评价。 最后，文章根据当前研究中的空白，列出了扩大K-12 CT讨论的优先事项。本文通过研究最近发表的大部分学术文献，以Wing的文章为跳板，确定了研究中的空白，并阐明了未来研究的优先事项，从而为K-12教育中关于计算思维的讨论现状提供了框架。
-The What and Why of Computational Thinking 根据Wing(2006)的说法，&amp;rdquo;计算思维包括通过借鉴计算机科学的基本概念来解决问题、设计系统和理解人类行为&amp;rdquo;(第33页)。CT的本质是在面对问题时像计算机科学家一样思考。
-早期的CT概念侧重于程序性思维和编程，虽然这个概念没错，但在workshop上被学者们重新审视，结合了几个计算机科学的核心概念后，此概念的范围被扩大，且超越了“单纯的编程”。workshop中也存在着几个尚未解决的核心问题：
- 如何识别CT？ 在儿童中推广CT的最佳教育方法是什么？ 能否合理地将编程、计算机和CT分开？  在2011年，Wing对CT的定义加以完善后，定义CT为“在制定问题及其解决方案时所涉及的思维过程，以便解决方案以一种可以由信息处理代理（information-processing agent/可理解为计算机）有效执行的形式来表示&amp;rdquo;
-Aho(2012)进一步简化了这一定义，将CT定义为在提出问题时所涉及的思维过程，以便 &amp;ldquo;其解决方案可以被表示为计算步骤和算法&amp;ldquo;。
-同在2012年，英国皇家学会也为CT提供了定义：”计算性思维是在我们周围的世界中认识计算的各个方面，并运用 计算机科学中的工具和技术，以了解和辩证性地看待自然和人工系统和过程。“
- 维基百科的解释：计算思维/运算思维
- 计算思维的另一个特征是基于三个阶段的“3A”迭代过程：
- 抽象（Abstraction）：问题表示； 自动化（Automation）：解决方案表达； 分析（Analyses）：解决方案执行和评估。   在美国大学委员会的试点课程中，提出了computing的7个思想：
- 计算是人类的创造性活动。 抽象化减少信息和细节，把重点放在与理解和解决问题有关的概念上。 数据和信息有助于创造知识。 算法是开发和表达计算问题解决方案的工具。 编程是一个产生计算产品的创造性过程。 数字设备、系统以及将它们相互连接的网络使人们能够并促进以计算方法解决问题。 计算使其他领域的创新成为可能，包括科学、社会科学、人文、艺术、医学、工程和商业。  在2000年，diSessa提出了一个概念叫”computational literacy&amp;rdquo; 中文也可以翻译成“计算素养”，但现今与CT经常交替使用，二者概念也相对接近。1980年B. A. Sheil 在 Xerox PARC也提出了“procedural literacy&amp;rdquo;(中文翻译为程序素养)的概念，但和CT也无太大差别。</description>
+      <description>Computational Thinking in K–12: A Review of the State of the Field &amp;mdash; K-12中的计算思维：领域现状回顾 K-12： 幼儿园+小学+中学教育合在一起的统称，多用于美国、加拿大以及澳</description>
     </item>
     
     <item>
       <title>时隔2年的更新</title>
-=======
-    <lastBuildDate>Fri, 16 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://davidneko.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>时隔3年的更新</title>
->>>>>>> 035c200fd7a27b7125aed1b4e8156f8573b39c50
       <link>https://davidneko.github.io/post/post_0003/</link>
       <pubDate>Fri, 16 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://davidneko.github.io/post/post_0003/</guid>
-      <description>测试更新完毕。  大概汇报下近况以及今年的计划。
-可以说是自从19年回家之后直到现在的时间，都让我觉得十分漫长。自身习惯了懒散的生活节奏之后，再想回到一个学生的状态真的很难。在无数遍调整心态之后，终于有了些“正在上学”的感觉。
-从今年4月开始的春季学期，我作为履修生（也就是旁听生/预科生）开始在早稻田的鷲崎（Washizaki）研究室学习。鷲崎教授的研究方向主要是Software Engineering相关，而我选择的研究方向是Programming Education，是教授研究方向中的一个小小的分支。如果顺利的话，应该是今年10月份开始申请早稻田的AO项目（也就是英文生），明年4月的春季学期才能作为一名正式的修士在早稻田学习。
-到明年4月为止还有一年的时间，我的个人计划姑且有以下几方面：
- 找到研究方向，并在10月前做出一份研究报告。 重新恢复更新网站，更新内容以每周学习笔记为主。 每周尽可能读2-3篇论文，读论文速度上来了之后再加大数量。 每周完成课程内容，尽可能期末得个好点的成绩。  这学期选的课程是4节：
- Software quality assurance Pattern Recognition and Machine Learning Foundations for Information Access Evaluation 高信頼ソフトウェア  目前感觉有难度的是机器学习这节课，因为需要用到线性代数的知识。比如说第二节课的作业的一道题，就需要根据一些2D样本，计算出特征向量（PCA里面的PC1），另一道题则是要用LDA算出2组2维样本的一维子空间（特征向量）。这两道题中都涉及到了我没有学过的矩阵计算、协方差矩阵的概念啥的。总之算出那2道题的过程十分艰辛，而且最后我也不确定我算没算对（笑）&amp;hellip;
-（说到这个，强推结城浩的《程序员的数学1-3》，简单易懂，救了我的命）
-其余的课程暂时都还好。虽然也涉及到了很多新知识，但总体来说问题应该不大。
-想说的大概就是这些。
- 最近在思考的问题是“少儿编程教育”有什么方向可以写论文或做研究。目前的项目组的教授是做 少儿编程教育+游戏开发的，于是自己最近也在研究游戏开发的基础。</description>
+      <description>测试更新完毕。 大概汇报下近况以及今年的计划。 可以说是自从19年回家之后直到现在的时间，都让我觉得十分漫长。自身习惯了懒散的生活节奏之后，再想</description>
     </item>
     
     <item>
@@ -62,21 +35,7 @@ Aho(2012)进一步简化了这一定义，将CT定义为在提出问题时所涉
       <pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>https://davidneko.github.io/post/post_0002/</guid>
-      <description>第一篇 职业 拥有商业心态 把自己的软件开发事业/职业生涯当作一桩生意来对待。拥有这种心态对管理职业规划很重要，不要让自己的工作角色固化了自己的职业生涯，要把自己当成由自己独立运营的企业，把自己的雇主当作自己的客户。这样来看待雇佣关系会让人把自己所处的被动领工资地位转换成一个自我治理和自我引导的主动地位。
-像企业一样思考   自己（作为一个“企业”）能够提供的服务是什么？
- 大多数人的答案是创建软件。    做一个默默无闻的程序员，还是？
- 专注于自己现在所能提供的服务，以及如何营销这项服务 想办法提升服务 思考自己可以专注为哪种特定类型的客户/行业提供特定服务 集中精力成为某一特定领域的专家    关键的问题：   吸引客户的最佳方法是什么？
-  如何将服务告知客户？
-  思考未来，定位自己的目标 开始把自己的软件开发职业当成商业活动的话，需要定义一个业务目标。
-  有关制定目标，如果发现制定一个很具体的目标很难，不妨先制定一个远期大目标。
-  这个大目标不一定要具体，它只要能够具体到给你提供清晰的方向即可 你需要知道自己在努力的过程中，是在向目标前进还是离目标越来越远。
-  你希望从你的职业生涯中收获什么？
-  你希望自己5年后或者10年后在哪里？
-    大目标制定后，则需要设定时限路线，也就是通往大目标的小目标。
-  这里可以用一下逆向思维：
- 如果已经到达了大目标，那么沿途都经历了哪些里程碑 能想象出哪些路径可以让你从大目标反推到你现在的情况    小目标可以分成更小的目标，月目标-&amp;gt;周目标-&amp;gt;日目标
-    时刻用大目标来提醒自己
-  人际交往能力很重要   学会如何与人打交道，会让职业生涯更顺利</description>
+      <description>第一篇 职业 拥有商业心态 把自己的软件开发事业/职业生涯当作一桩生意来对待。拥有这种心态对管理职业规划很重要，不要让自己的工作角色固化了自己的职</description>
     </item>
     
     <item>
@@ -85,23 +44,7 @@ Aho(2012)进一步简化了这一定义，将CT定义为在提出问题时所涉
       <pubDate>Fri, 19 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>https://davidneko.github.io/post/post_0001/</guid>
-      <description>前期准备 要在Github上部署静态博客，首先需要准备好：
-  Github账号
- Github免费注册    在本地开发环境安装Hugo并准备好要发布的网页
-  Hugo安装指南
-  Hugo Quick Start: Create a Hugo site using the beautiful Ananke theme
-    在本地开发环境安装 Git 2.8 或更高版本
- Git下载    Github 页面种类 有两种Github页面可供选择：
-  个人/组织页面
-(https://&amp;lt;USERNAME|ORGANIZATION&amp;gt;.github.io/)
-  项目页面
-(https://&amp;lt;USERNAME|ORGANIZATION&amp;gt;.github.io/&amp;lt;PROJECT&amp;gt;/)
-  参考Github页面文档以便决定你将要部署的页面类型，这里选择比较简单的个人组织页面类型作为示例
-个人/组织页面建立的分步教学 首先，个人/组织页面和项目页面的差别是：
-  必须用&amp;lt;USERNAME&amp;gt;.github.io来托管你用Hugo生成的内容
-  在master分支下的内容会被公开发布到你的Github主页上
-  分步教学   在Github上建立一个&amp;lt;YOUR-PROJECT&amp;gt;项目分支(例如，blog)，这个分支会包含你的Hugo页面内容以及其他源文件
-  在Github上建立一个&amp;lt;USERNAME&amp;gt;.</description>
+      <description>前期准备 要在Github上部署静态博客，首先需要准备好： Github账号 Github免费注册 在本地开发环境安装Hugo并准备好要发布的网页 H</description>
     </item>
     
   </channel>

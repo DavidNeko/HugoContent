@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tech on Dav Blog</title>
@@ -6,30 +6,18 @@
     <description>Recent content in Tech on Dav Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Oct 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://davidneko.github.io/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://davidneko.github.io/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Hosting Hugo on Github</title>
       <link>https://davidneko.github.io/post/post_0001/</link>
       <pubDate>Fri, 19 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>https://davidneko.github.io/post/post_0001/</guid>
-      <description>前期准备 要在Github上部署静态博客，首先需要准备好：
-  Github账号
- Github免费注册    在本地开发环境安装Hugo并准备好要发布的网页
-  Hugo安装指南
-  Hugo Quick Start: Create a Hugo site using the beautiful Ananke theme
-    在本地开发环境安装 Git 2.8 或更高版本
- Git下载    Github 页面种类 有两种Github页面可供选择：
-  个人/组织页面
-(https://&amp;lt;USERNAME|ORGANIZATION&amp;gt;.github.io/)
-  项目页面
-(https://&amp;lt;USERNAME|ORGANIZATION&amp;gt;.github.io/&amp;lt;PROJECT&amp;gt;/)
-  参考Github页面文档以便决定你将要部署的页面类型，这里选择比较简单的个人组织页面类型作为示例
-个人/组织页面建立的分步教学 首先，个人/组织页面和项目页面的差别是：
-  必须用&amp;lt;USERNAME&amp;gt;.github.io来托管你用Hugo生成的内容
-  在master分支下的内容会被公开发布到你的Github主页上
-  分步教学   在Github上建立一个&amp;lt;YOUR-PROJECT&amp;gt;项目分支(例如，blog)，这个分支会包含你的Hugo页面内容以及其他源文件
-  在Github上建立一个&amp;lt;USERNAME&amp;gt;.</description>
+      <description>前期准备 要在Github上部署静态博客，首先需要准备好： Github账号 Github免费注册 在本地开发环境安装Hugo并准备好要发布的网页 H</description>
     </item>
     
   </channel>
