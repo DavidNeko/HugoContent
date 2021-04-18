@@ -6,10 +6,19 @@
     <description>Recent content in Programming Education on Dav Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Apr 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://davidneko.github.io/tags/programming-education/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>论文阅读笔记_002</title>
+      <link>https://davidneko.github.io/post/post_0005/</link>
+      <pubDate>Sun, 18 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidneko.github.io/post/post_0005/</guid>
+      <description>CodeSpells: Embodying the Metaphor of Wizardry for Programming CodeSpells&amp;rsquo; webpage, twitter, Steam link Abstract 此文阐述了CodeSpells是如何通过一个内嵌API以及巫师(☆-ｖ-)的比喻概念让用户/学生参与学习Java</description>
+    </item>
     
     <item>
       <title>论文阅读笔记_001</title>
