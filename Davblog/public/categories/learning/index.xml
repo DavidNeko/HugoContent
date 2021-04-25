@@ -6,10 +6,19 @@
     <description>Recent content in Learning on Dav Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Apr 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://davidneko.github.io/categories/learning/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>论文阅读笔记_003</title>
+      <link>https://davidneko.github.io/post/post_0008/</link>
+      <pubDate>Sun, 25 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidneko.github.io/post/post_0008/</guid>
+      <description>Reading Note: The Potential of Virtual Reality for Computer Science Education - Engaging Students through Immersive Visualizations Since this paper is not published yet, I&amp;rsquo;m not allowed to post details about the paper online. Therefore I&amp;rsquo;m only posting my personal feedback of each part of the paper for now. After the paper is published in public, I will add more details into this reading note. Abstract Details will be posted</description>
+    </item>
     
     <item>
       <title>Oculus Quest 2 VR 使用注意事项、踩坑总结</title>
