@@ -4,14 +4,14 @@ theme = "hugo-theme-cleanwhite"
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
 # disqusShortname = "davwang"
-googleAnalytics = "UA-127976457-1"
+# googleAnalytics = "UA-127976457-1"
 # preserveTaxonomyNames = true
 # paginate = 5 #frontpage pagination
 # hasCJKLanguage = true
 hasCJKLanguage = true
 
 [outputs]
-home = ["HTML", "RSS", "Algolia"]
+home = ["HTML", "RSS"]
 
 
 [params]
@@ -93,3 +93,9 @@ notAlternative = true
 [params.algolia]
 vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
 params = ["categories", "tags"] 
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

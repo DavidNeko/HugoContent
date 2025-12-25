@@ -1,24 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Game Development on Dav Blog</title>
-    <link>https://davidneko.github.io/tags/game-development/</link>
+    <link>http://localhost:1313/tags/game-development/</link>
     <description>Recent content in Game Development on Dav Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 18 Apr 2021 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://davidneko.github.io/tags/game-development/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="http://localhost:1313/tags/game-development/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>论文阅读笔记_002</title>
-      <link>https://davidneko.github.io/post/post_0005/</link>
+      <link>http://localhost:1313/post/post_0005/</link>
       <pubDate>Sun, 18 Apr 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidneko.github.io/post/post_0005/</guid>
-      <description>CodeSpells: Embodying the Metaphor of Wizardry for Programming CodeSpells&amp;rsquo; webpage, twitter, Steam link Abstract 此文阐述了CodeSpells是如何通过一个内嵌API以及巫师(☆-ｖ-)的比喻概念让用户/学生参与学习Java</description>
+      <guid>http://localhost:1313/post/post_0005/</guid>
+      <description>&lt;h3 id=&#34;codespells-embodying-the-metaphor-of-wizardry-for-programming&#34;&gt;CodeSpells: Embodying the Metaphor of Wizardry for Programming&lt;/h3&gt;&#xA;&lt;p&gt;CodeSpells&amp;rsquo; &lt;a href=&#34;https://codespells.org/&#34;&gt;webpage&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/codespells?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://store.steampowered.com/app/324190/CodeSpells/&#34;&gt;Steam link&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;&#xA;&lt;p&gt;此文阐述了CodeSpells是如何通过一个内嵌API以及巫师(☆-ｖ-)的比喻概念让用户/学生参与学习Java编程。把具体代码提供给新手程序员的这种学习方法其实是被鼓励的，且已经被证实可以帮助学生更容易地理解编程的概念。很多人也已经尝试了为他们提供：一种可视化的编程语言、一个硬件组件亦或是一个更容易上手的应用程序，从而改变学习者的学习体验。此项研究的优点是，可以让学生更好理解抽象代码是怎样影响整体环境的。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

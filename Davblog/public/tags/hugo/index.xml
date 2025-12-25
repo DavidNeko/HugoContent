@@ -1,24 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on Dav Blog</title>
-    <link>https://davidneko.github.io/tags/hugo/</link>
+    <link>http://localhost:1313/tags/hugo/</link>
     <description>Recent content in Hugo on Dav Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Oct 2018 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://davidneko.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 24 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2025 Revival</title>
+      <link>http://localhost:1313/post/2025-revival/</link>
+      <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2025-revival/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;距离上次更新博客已经过去了四年，这4年发生了太多事。&#xA;我记得4年前那几篇更新，也是头脑一热想着把平时学到的东西记录一下，到后面记录了5篇就再也没有更新了。 过去了1705天，我的生活也发生了巨变。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Hosting Hugo on Github</title>
-      <link>https://davidneko.github.io/post/post_0001/</link>
+      <link>http://localhost:1313/post/post_0001/</link>
       <pubDate>Fri, 19 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidneko.github.io/post/post_0001/</guid>
-      <description>前期准备 要在Github上部署静态博客，首先需要准备好： Github账号 Github免费注册 在本地开发环境安装Hugo并准备好要发布的网页 H</description>
+      <guid>http://localhost:1313/post/post_0001/</guid>
+      <description>&lt;!-- Contents --&gt;&#xD;&#xA;&lt;h2 id=&#34;前期准备&#34;&gt;前期准备&lt;/h2&gt;&#xA;&lt;p&gt;要在Github上部署静态博客，首先需要准备好：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Github账号&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/join&#34;&gt;Github免费注册&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;在本地开发环境安装Hugo并准备好要发布的网页&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://gohugo.io/getting-started/installing&#34;&gt;Hugo安装指南&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://gohugo.io/getting-started/quick-start/&#34;&gt;Hugo Quick Start: Create a Hugo site using the beautiful Ananke theme&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
