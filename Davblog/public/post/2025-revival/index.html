@@ -383,10 +383,94 @@
 </span></span></code></pre></div><p>(注意：如果你的文章目录不叫 posts，可能叫 post 或 blog，你可以去 content 文件夹里看一眼)</p>
 <p>方法 B：手动创建</p>
 <p>打开 Windows 文件资源管理器。</p>
-<p>进入 my_blog/content/posts/。</p>
-<p>随便复制一个旧的 .md 文件，重命名，然后用记事本打开修改里面的 title（标题）和 date（日期），并写下新内容。</p>
-<p>注意： 记得把文件头部的 draft: true 改成 draft: false，否则发布时看不见。</p>
-<p>预览： 写完后，随时运行 ./hugo server 在本地看看效果。</p>
+<p>进入    <code>my_blog/content/posts/</code>。</p>
+<p>随便复制一个旧的 <code>*.md</code> 文件，重命名，然后用记事本打开修改里面的 title（标题）和 date（日期），并写下新内容。</p>
+<p>预览： 写完后，随时运行 <code>./hugo server</code> 在本地看看效果。</p>
+<h3 id="发布上线">发布上线</h3>
+<ol>
+<li>生成网页</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># 在 my_blog 根目录下运行</span>
+</span></span><span style="display:flex;"><span>./hugo
+</span></span></code></pre></div><p>(把最新的 HTML 生成到 public 文件夹里)</p>
+<ol start="2">
+<li>推送网页 (更新网站)</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># 进入 public 文件夹</span>
+</span></span><span style="display:flex;"><span>cd public
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 提交并推送</span>
+</span></span><span style="display:flex;"><span>git add .
+</span></span><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;更新文章&#34;</span>
+</span></span><span style="display:flex;"><span>git push origin master
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 回到上级目录 (准备备份源码)</span>
+</span></span><span style="display:flex;"><span>cd ..
+</span></span></code></pre></div><ol start="3">
+<li>备份源码 (防止再次丢失!)</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># 现在应该回到 my_blog 目录</span>
+</span></span><span style="display:flex;"><span>git add .
+</span></span><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;添加新文章源码&#34;</span>
+</span></span><span style="display:flex;"><span>git push origin master
+</span></span></code></pre></div><h2 id="本以为上面的流程会顺利直到">本以为上面的流程会顺利，直到&hellip;</h2>
+<p>写完了文章，准备发布，结果发现在本地预览时，文章不会显示出来。而Bash上也有一段被我忽略的Warning:</p>
+<blockquote>
+<p>WARN found no layout file for &ldquo;html&rdquo; for kind &ldquo;home&rdquo; WARN found no layout file for &ldquo;html&rdquo; for kind &ldquo;page&rdquo;</p>
+</blockquote>
+<p>原来是因为Git Clone默认不下载Submodule内容， 导致子模块的主题文件没有被下载下来。</p>
+<p>于是在Git Bash里执行了下面的命令对Submodule进行拉取。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git submodule update --init --recursive
+</span></span></code></pre></div><p>拉取成功后，重新运行</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>./hugo server
+</span></span></code></pre></div><p>以为大功告成了，但发现了一个更大的坑。因为我使用的主题<code>hugo-theme-cleanwhite</code>是4年前的版本, 在这4年的时间里Hugo和主题都进行了更新，但我仓库中却没有进行对应的更新。导致出现了大量的报错：</p>
+<p>例如：</p>
+<blockquote>
+<p>ERROR html/template:_partials/footer.html:207:12: no such template &ldquo;_internal/google_analytics_async.html&rdquo;</p>
+</blockquote>
+<blockquote>
+<p>ERROR error building site: render: [en v1.0.0 guest] failed to render pages: render of &ldquo;/tags/computational-thinking&rdquo; failed: &ldquo;F:\BlogRescue\my_blog\Davblog\themes\hugo-theme-cleanwhite\layouts_default\baseof.html:3:9&rdquo;: execute of template failed: template: taxonomy/tag.html:3:9: executing &ldquo;taxonomy/tag.html&rdquo; at &lt;partial &ldquo;head.html&rdquo; .&gt;: error calling partial: &ldquo;F:\BlogRescue\my_blog\Davblog\themes\hugo-theme-cleanwhite\layouts\partials\head.html:18:35&rdquo;: execute of template failed: template: _partials/head.html:18:35: executing &ldquo;_partials/head.html&rdquo; at &lt;.URL&gt;: can&rsquo;t evaluate field URL in type *hugolib.pageState</p>
+</blockquote>
+<blockquote>
+<p>ERROR error building site: render: [en v1.0.0 guest] failed to render pages: render of &ldquo;F:/BlogRescue/my_blog/Davblog/content/post/post_0007.md&rdquo; failed: &ldquo;F:\BlogRescue\my_blog\Davblog\themes\hugo-theme-cleanwhite\layouts_default\single.html:24:27&rdquo;: execute of template failed: template: single.html:24:27: executing &ldquo;header&rdquo; at &lt;partial &ldquo;page_view_counter.html&rdquo; .&gt;: error calling partial: &ldquo;F:\BlogRescue\my_blog\Davblog\themes\hugo-theme-cleanwhite\layouts\partials\page_view_counter.html:1:13&rdquo;: execute of template failed: template: _partials/page_view_counter.html:1:13: executing &ldquo;_partials/page_view_counter.html&rdquo; at &lt;.URL&gt;: can&rsquo;t evaluate field URL in type *hugolib.pageState
+render of &ldquo;/tags/game-development&rdquo; failed: &ldquo;F:\BlogRescue\my_blog\Davblog\themes\hugo-theme-cleanwhite\layouts\taxonomy\tag.html:2:5&rdquo;: execute of template failed: template: taxonomy/tag.html:2:5: executing &ldquo;main&rdquo; at &lt;partial &ldquo;category.html&rdquo; .&gt;: error calling partial: &ldquo;F:\BlogRescue\my_blog\Davblog\themes\hugo-theme-cleanwhite\layouts\partials\category.html:2:3&rdquo;: execute of template failed: template: _partials/category.html:2:3: executing &ldquo;_partials/category.html&rdquo; at &lt;partial &ldquo;posts.html&rdquo; .&gt;: error calling partial: &ldquo;F:\BlogRescue\my_blog\Davblog\themes\hugo-theme-cleanwhite\layouts\partials\posts.html:15:11&rdquo;: execute of template failed: template: _partials/posts.html:15:11: executing &ldquo;_partials/posts.html&rdquo; at &lt;partial &ldquo;sidebar.html&rdquo; .&gt;: error calling partial: &ldquo;F:\BlogRescue\my_blog\Davblog\themes\hugo-theme-cleanwhite\layouts\partials\sidebar.html:42:31&rdquo;: execute of template failed: template: _partials/sidebar.html:42:31: executing &ldquo;_partials/sidebar.html&rdquo; at &lt;.RSSLink&gt;: can&rsquo;t evaluate field RSSLink in type *hugolib.pageState</p>
+</blockquote>
+<blockquote>
+<p>ERROR error building site: render: [en v1.0.0 guest] failed to render pages: render of &ldquo;/&rdquo; failed: &ldquo;F:\BlogRescue\my_blog\Davblog\themes\hugo-theme-cleanwhite\layouts_default\list.algolia.json:6:47&rdquo;: execute of template failed: template: list.algolia.json:6:47: executing &ldquo;list.algolia.json&rdquo; at &lt;.UniqueID&gt;: can&rsquo;t evaluate field UniqueID in type page.Page</p>
+</blockquote>
+<p>等等&hellip;</p>
+<p>原因基本都是主题中的很多写法已经在最新版的Hugo被废弃，导致server无法正常启动。
+经过一系列的修改后，删除了主题文件中不符合新版Hugo规范的代码。
+后再次执行，终于成功启动了server!</p>
+<h2 id="但是">但是&hellip;</h2>
+<p>你以为会这么顺利吗？</p>
+<p>在启动server，打开本地测试时，发现CSS全都没被加载出来，前端完全变成了一个荒废的框架。</p>
+<h3 id="问题诊断">问题诊断</h3>
+<p>经排查发现，CSS 和 JavaScript 文件无法加载（返回 404 错误），原因是主题模板中的文件路径存在错误的多余前导空格。</p>
+<p>错误示例： 代码写作 <code>href=&quot; css/bootstrap.min.css&quot;</code>（含前导空格） ⬇️ 浏览器实际请求路径为 <code>%20css/bootstrap.min.css</code> ⬇️ 导致 <strong>404 Not Found</strong></p>
+<h3 id="修复内容">修复内容</h3>
+<p>我修正了以下主题文件中的路径引用：</p>
+<ol>
+<li><code>themes/hugo-theme-cleanwhite/layouts/partials/head.html</code> 移除了所有 CSS 和 JS 链接属性中的前导空格。 修改对比 (Diff):</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Diff" data-lang="Diff"><span style="display:flex;"><span><span style="color:#f92672">- &lt;link rel=&#34;stylesheet&#34; href=&#34;{{ &#34; css/bootstrap.min.css&#34; | absURL }}&#34;&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#a6e22e">+ &lt;link rel=&#34;stylesheet&#34; href=&#34;{{ &#34;css/bootstrap.min.css&#34; | absURL }}&#34;&gt;
+</span></span></span></code></pre></div><ol start="2">
+<li>
+<p><code>themes/hugo-theme-cleanwhite/layouts/partials/sidebar.html</code> 移除了“精选标签 (Featured Tags)”和“RSS”链接中的前导空格。</p>
+</li>
+<li>
+<p><code>themes/hugo-theme-cleanwhite/layouts/partials/footer.html</code> 移除了 RSS 链接中的前导空格。</p>
+</li>
+</ol>
+<h3 id="验证结果">验证结果</h3>
+<p>视觉检查： 访问 http://localhost:1313，确认博客样式已完全恢复正常。“CleanWhite”主题的布局、字体和配色均显示正确。</p>
+<p>控制台检查： 检查浏览器控制台 (Console)，确认样式表和脚本不再出现 404 报错。所有静态资源均加载正常。</p>
+<hr>
+<h2 id="总结">总结</h2>
+<p>一波三折吧。</p>
+<p>不过结果是好的，借助AI的力量也让整个过程变得事半功倍。</p>
+<p>希望这次能尽量多更更文章，别白折腾了。</p>
 
 
                 
@@ -495,15 +579,6 @@
                     
 
                     
-                    <li>
-                        <a target="_blank" href="https://www.facebook.com/xinze.wang.7">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    
 
                     
                     
@@ -528,16 +603,6 @@
                     </li>
                     
                 </ul>
-                <p class="copyright text-muted">
-                    Copyright &copy; Dav Blog , 2025
-                    <br>
-                    <a href="https://themes.gohugo.io/hugo-theme-cleanwhite">CleanWhite Hugo Theme</a> by <a
-                        href="https://zhaohuabing.com">Huabing</a> |
-                    <iframe style="margin-left: 2px; margin-bottom:-5px;" frameborder="0" scrolling="0" width="100px"
-                        height="20px"
-                        src="https://ghbtns.com/github-btn.html?user=zhaohuabing&repo=hugo-theme-cleanwhite&type=star&count=true">
-                    </iframe>
-                </p>
             </div>
         </div>
     </div>
@@ -598,7 +663,6 @@
             s.parentNode.insertBefore(bp, s);
         })();
 </script>
-
 
 
 

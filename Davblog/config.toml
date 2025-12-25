@@ -38,7 +38,7 @@ home = ["HTML", "RSS"]
 
   # Sidebar settings
   sidebar_about_description = "Developer, Whisky Lover, Learner for Life"
-  sidebar_avatar = "img/PicolasCage.jpg"      # use absolute URL, seeing it's used in both `/` and `/about/`
+  sidebar_avatar = "img/potato.png"      # use absolute URL, seeing it's used in both `/` and `/about/`
 
   featured_tags = false 
   featured_condition_size = 2 
@@ -57,7 +57,7 @@ home = ["HTML", "RSS"]
   [params.social]
   rss            = true 
   email          = "davidandneko233@gmail.com"
-  facebook       = "https://www.facebook.com/xinze.wang.7"
+  #facebook       = "nope"
   #googleplus    = "full profile url in googleplus"
   #twitter       = "full profile url in twitter"
   linkedin       = "https://www.linkedin.com/in/xinze-wang-89bb38101/"

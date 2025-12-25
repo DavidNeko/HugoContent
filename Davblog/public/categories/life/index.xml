@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Life on Dav Blog</title>
-    <link>http://localhost:1313/categories/life/</link>
+    <link>http://localhost:54623/categories/life/</link>
     <description>Recent content in Life on Dav Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 24 Dec 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/life/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:54623/categories/life/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2025 Revival</title>
-      <link>http://localhost:1313/post/2025-revival/</link>
+      <link>http://localhost:54623/post/2025-revival/</link>
       <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2025-revival/</guid>
+      <guid>http://localhost:54623/post/2025-revival/</guid>
       <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;距离上次更新博客已经过去了四年，这4年发生了太多事。&#xA;我记得4年前那几篇更新，也是头脑一热想着把平时学到的东西记录一下，到后面记录了5篇就再也没有更新了。 过去了1705天，我的生活也发生了巨变。&lt;/p&gt;</description>
     </item>
     <item>
       <title>时隔2年的更新</title>
-      <link>http://localhost:1313/post/post_0003/</link>
+      <link>http://localhost:54623/post/post_0003/</link>
       <pubDate>Fri, 16 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/post_0003/</guid>
+      <guid>http://localhost:54623/post/post_0003/</guid>
       <description>&lt;h2 id=&#34;测试更新完毕&#34;&gt;测试更新完毕。&lt;/h2&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;大概汇报下近况以及今年的计划。&lt;/p&gt;&#xA;&lt;p&gt;可以说是自从19年回家之后直到现在的时间，都让我觉得十分漫长。自身习惯了懒散的生活节奏之后，再想回到一个学生的状态真的很难。在无数遍调整心态之后，终于有了些“正在上学”的感觉。&lt;/p&gt;</description>
     </item>
   </channel>

@@ -135,10 +135,125 @@ git clone https://github.com/DavidNeko/DavidNeko.github.io.git public
 
 打开 Windows 文件资源管理器。
 
-进入 my_blog/content/posts/。
+进入    `my_blog/content/posts/`。
 
-随便复制一个旧的 .md 文件，重命名，然后用记事本打开修改里面的 title（标题）和 date（日期），并写下新内容。
+随便复制一个旧的 `*.md` 文件，重命名，然后用记事本打开修改里面的 title（标题）和 date（日期），并写下新内容。
 
-注意： 记得把文件头部的 draft: true 改成 draft: false，否则发布时看不见。
+预览： 写完后，随时运行 `./hugo server` 在本地看看效果。
 
-预览： 写完后，随时运行 ./hugo server 在本地看看效果。
+### 发布上线
+
+1. 生成网页
+
+``` bash
+# 在 my_blog 根目录下运行
+./hugo
+```
+
+(把最新的 HTML 生成到 public 文件夹里)
+
+2. 推送网页 (更新网站)
+
+``` bash
+# 进入 public 文件夹
+cd public
+
+# 提交并推送
+git add .
+git commit -m "更新文章"
+git push origin master
+
+# 回到上级目录 (准备备份源码)
+cd ..
+```
+
+3. 备份源码 (防止再次丢失!)
+
+``` bash
+# 现在应该回到 my_blog 目录
+git add .
+git commit -m "添加新文章源码"
+git push origin master
+```
+
+
+## 本以为上面的流程会顺利，直到...
+
+写完了文章，准备发布，结果发现在本地预览时，文章不会显示出来。而Bash上也有一段被我忽略的Warning:
+
+> WARN found no layout file for "html" for kind "home" WARN found no layout file for "html" for kind "page"
+
+原来是因为Git Clone默认不下载Submodule内容， 导致子模块的主题文件没有被下载下来。
+
+于是在Git Bash里执行了下面的命令对Submodule进行拉取。
+
+``` bash
+git submodule update --init --recursive
+```
+
+拉取成功后，重新运行
+
+``` bash
+./hugo server
+```
+
+以为大功告成了，但发现了一个更大的坑。因为我使用的主题`hugo-theme-cleanwhite`是4年前的版本, 在这4年的时间里Hugo和主题都进行了更新，但我仓库中却没有进行对应的更新。导致出现了大量的报错：
+
+例如：
+
+> ERROR html/template:_partials/footer.html:207:12: no such template "_internal/google_analytics_async.html"
+
+> ERROR error building site: render: [en v1.0.0 guest] failed to render pages: render of "/tags/computational-thinking" failed: "F:\BlogRescue\my_blog\Davblog\themes\hugo-theme-cleanwhite\layouts\_default\baseof.html:3:9": execute of template failed: template: taxonomy/tag.html:3:9: executing "taxonomy/tag.html" at <partial "head.html" .>: error calling partial: "F:\BlogRescue\my_blog\Davblog\themes\hugo-theme-cleanwhite\layouts\partials\head.html:18:35": execute of template failed: template: _partials/head.html:18:35: executing "_partials/head.html" at <.URL>: can't evaluate field URL in type *hugolib.pageState
+
+> ERROR error building site: render: [en v1.0.0 guest] failed to render pages: render of "F:/BlogRescue/my_blog/Davblog/content/post/post_0007.md" failed: "F:\BlogRescue\my_blog\Davblog\themes\hugo-theme-cleanwhite\layouts\_default\single.html:24:27": execute of template failed: template: single.html:24:27: executing "header" at <partial "page_view_counter.html" .>: error calling partial: "F:\BlogRescue\my_blog\Davblog\themes\hugo-theme-cleanwhite\layouts\partials\page_view_counter.html:1:13": execute of template failed: template: _partials/page_view_counter.html:1:13: executing "_partials/page_view_counter.html" at <.URL>: can't evaluate field URL in type *hugolib.pageState
+> render of "/tags/game-development" failed: "F:\BlogRescue\my_blog\Davblog\themes\hugo-theme-cleanwhite\layouts\taxonomy\tag.html:2:5": execute of template failed: template: taxonomy/tag.html:2:5: executing "main" at <partial "category.html" .>: error calling partial: "F:\BlogRescue\my_blog\Davblog\themes\hugo-theme-cleanwhite\layouts\partials\category.html:2:3": execute of template failed: template: _partials/category.html:2:3: executing "_partials/category.html" at <partial "posts.html" .>: error calling partial: "F:\BlogRescue\my_blog\Davblog\themes\hugo-theme-cleanwhite\layouts\partials\posts.html:15:11": execute of template failed: template: _partials/posts.html:15:11: executing "_partials/posts.html" at <partial "sidebar.html" .>: error calling partial: "F:\BlogRescue\my_blog\Davblog\themes\hugo-theme-cleanwhite\layouts\partials\sidebar.html:42:31": execute of template failed: template: _partials/sidebar.html:42:31: executing "_partials/sidebar.html" at <.RSSLink>: can't evaluate field RSSLink in type *hugolib.pageState
+
+> ERROR error building site: render: [en v1.0.0 guest] failed to render pages: render of "/" failed: "F:\BlogRescue\my_blog\Davblog\themes\hugo-theme-cleanwhite\layouts\_default\list.algolia.json:6:47": execute of template failed: template: list.algolia.json:6:47: executing "list.algolia.json" at <.UniqueID>: can't evaluate field UniqueID in type page.Page
+
+等等...
+
+原因基本都是主题中的很多写法已经在最新版的Hugo被废弃，导致server无法正常启动。
+经过一系列的修改后，删除了主题文件中不符合新版Hugo规范的代码。
+后再次执行，终于成功启动了server!
+
+## 但是...
+
+你以为会这么顺利吗？
+
+在启动server，打开本地测试时，发现CSS全都没被加载出来，前端完全变成了一个荒废的框架。
+
+### 问题诊断
+经排查发现，CSS 和 JavaScript 文件无法加载（返回 404 错误），原因是主题模板中的文件路径存在错误的多余前导空格。
+
+错误示例： 代码写作 `href=" css/bootstrap.min.css"`（含前导空格） ⬇️ 浏览器实际请求路径为 `%20css/bootstrap.min.css` ⬇️ 导致 **404 Not Found**
+
+### 修复内容
+我修正了以下主题文件中的路径引用：
+
+1. `themes/hugo-theme-cleanwhite/layouts/partials/head.html` 移除了所有 CSS 和 JS 链接属性中的前导空格。 修改对比 (Diff):
+
+```Diff
+- <link rel="stylesheet" href="{{ " css/bootstrap.min.css" | absURL }}">
++ <link rel="stylesheet" href="{{ "css/bootstrap.min.css" | absURL }}">
+```
+
+2. `themes/hugo-theme-cleanwhite/layouts/partials/sidebar.html` 移除了“精选标签 (Featured Tags)”和“RSS”链接中的前导空格。
+
+3. `themes/hugo-theme-cleanwhite/layouts/partials/footer.html` 移除了 RSS 链接中的前导空格。
+
+### 验证结果
+
+视觉检查： 访问 http://localhost:1313，确认博客样式已完全恢复正常。“CleanWhite”主题的布局、字体和配色均显示正确。
+
+控制台检查： 检查浏览器控制台 (Console)，确认样式表和脚本不再出现 404 报错。所有静态资源均加载正常。
+
+
+---
+
+## 总结
+
+一波三折吧。
+
+不过结果是好的，借助AI的力量也让整个过程变得事半功倍。
+
+希望这次能尽量多更更文章，别白折腾了。

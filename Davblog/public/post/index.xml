@@ -2,73 +2,73 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Dav Blog</title>
-    <link>http://localhost:1313/post/</link>
+    <link>http://localhost:54623/post/</link>
     <description>Recent content in Posts on Dav Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 24 Dec 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:54623/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2025 Revival</title>
-      <link>http://localhost:1313/post/2025-revival/</link>
+      <link>http://localhost:54623/post/2025-revival/</link>
       <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2025-revival/</guid>
+      <guid>http://localhost:54623/post/2025-revival/</guid>
       <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;距离上次更新博客已经过去了四年，这4年发生了太多事。&#xA;我记得4年前那几篇更新，也是头脑一热想着把平时学到的东西记录一下，到后面记录了5篇就再也没有更新了。 过去了1705天，我的生活也发生了巨变。&lt;/p&gt;</description>
     </item>
     <item>
       <title>论文阅读笔记_003</title>
-      <link>http://localhost:1313/post/post_0008/</link>
+      <link>http://localhost:54623/post/post_0008/</link>
       <pubDate>Sun, 25 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/post_0008/</guid>
+      <guid>http://localhost:54623/post/post_0008/</guid>
       <description>&lt;h2 id=&#34;reading-note-the-potential-of-virtual-reality-for-computer-science-education---engaging-students-through-immersive-visualizations&#34;&gt;Reading Note: The Potential of Virtual Reality for Computer Science Education - Engaging Students through Immersive Visualizations&lt;/h2&gt;&#xA;&lt;p&gt;Since this paper is not published yet, I&amp;rsquo;m not allowed to post details about the paper online. Therefore I&amp;rsquo;m only posting my personal feedback of each part of the paper for now. After the paper is published in public, I will add more details into this reading note.&lt;/p&gt;&#xA;&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;&#xA;&lt;p&gt;&lt;code&gt;Details will be posted after the paper is published.&lt;/code&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Oculus Quest 2 VR 使用注意事项、踩坑总结</title>
-      <link>http://localhost:1313/post/post_0007/</link>
+      <link>http://localhost:54623/post/post_0007/</link>
       <pubDate>Thu, 22 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/post_0007/</guid>
+      <guid>http://localhost:54623/post/post_0007/</guid>
       <description>&lt;h2 id=&#34;oculus-quest-2-vr-使用注意事项踩坑总结&#34;&gt;Oculus Quest 2 VR 使用注意事项、踩坑总结&lt;/h2&gt;&#xA;&lt;p&gt;这几天入手了一台Quest 2准备拿来开发用。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://z3.ax1x.com/2021/04/25/czEtTx.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;入手之前姑且是做了很多调查，确定能用能开发，才下单。&lt;/p&gt;&#xA;&lt;p&gt;但实际上到手之后，遇到的问题也不少。&lt;/p&gt;</description>
     </item>
     <item>
       <title>日语练习/学习笔记/单词笔记</title>
-      <link>http://localhost:1313/post/post_0006/</link>
+      <link>http://localhost:54623/post/post_0006/</link>
       <pubDate>Mon, 19 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/post_0006/</guid>
+      <guid>http://localhost:54623/post/post_0006/</guid>
       <description>&lt;p&gt;本篇只是纯粹的日语学习笔记，记录每天学到的细碎内容。会定期更新。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;2021416&#34;&gt;2021.4.16&lt;/h2&gt;&#xA;&lt;h4 id=&#34;口语练习文章&#34;&gt;口语练习文章&lt;/h4&gt;&#xA;&lt;p&gt;人生をやり直しますか&#xA;生きて行く中で楽しいことや辛い事が数え切れないほどありますが&#xA;もしあなたが失敗をした時&#xA;辛い局面に当たった時&#xA;人生をやり直したいと思ったことはないですか&#xA;例えるならゲームと言うリセットボタンのように&#xA;その局面に当たる前に戻るのであれば&#xA;やり直したいって思う人もいるのかもしれません&#xA;あなたは、もし人生にやり直しが可能なら、やり直しますか&lt;/p&gt;</description>
     </item>
     <item>
       <title>论文阅读笔记_002</title>
-      <link>http://localhost:1313/post/post_0005/</link>
+      <link>http://localhost:54623/post/post_0005/</link>
       <pubDate>Sun, 18 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/post_0005/</guid>
+      <guid>http://localhost:54623/post/post_0005/</guid>
       <description>&lt;h3 id=&#34;codespells-embodying-the-metaphor-of-wizardry-for-programming&#34;&gt;CodeSpells: Embodying the Metaphor of Wizardry for Programming&lt;/h3&gt;&#xA;&lt;p&gt;CodeSpells&amp;rsquo; &lt;a href=&#34;https://codespells.org/&#34;&gt;webpage&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/codespells?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;https://store.steampowered.com/app/324190/CodeSpells/&#34;&gt;Steam link&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;&#xA;&lt;p&gt;此文阐述了CodeSpells是如何通过一个内嵌API以及巫师(☆-ｖ-)的比喻概念让用户/学生参与学习Java编程。把具体代码提供给新手程序员的这种学习方法其实是被鼓励的，且已经被证实可以帮助学生更容易地理解编程的概念。很多人也已经尝试了为他们提供：一种可视化的编程语言、一个硬件组件亦或是一个更容易上手的应用程序，从而改变学习者的学习体验。此项研究的优点是，可以让学生更好理解抽象代码是怎样影响整体环境的。&lt;/p&gt;</description>
     </item>
     <item>
       <title>论文阅读笔记_001</title>
-      <link>http://localhost:1313/post/post_0004/</link>
+      <link>http://localhost:54623/post/post_0004/</link>
       <pubDate>Sat, 17 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/post_0004/</guid>
+      <guid>http://localhost:54623/post/post_0004/</guid>
       <description>&lt;h2 id=&#34;computational-thinking-in-k12-a-review-of-the-state-of-the-field--k-12中的计算思维领域现状回顾&#34;&gt;Computational Thinking in K–12: A Review of the State of the Field &amp;mdash; K-12中的计算思维：领域现状回顾&lt;/h2&gt;&#xA;&lt;p&gt;K-12： 幼儿园+小学+中学教育合在一起的统称，多用于美国、加拿大以及澳大利亚的部分地区。&lt;/p&gt;</description>
     </item>
     <item>
       <title>时隔2年的更新</title>
-      <link>http://localhost:1313/post/post_0003/</link>
+      <link>http://localhost:54623/post/post_0003/</link>
       <pubDate>Fri, 16 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/post_0003/</guid>
+      <guid>http://localhost:54623/post/post_0003/</guid>
       <description>&lt;h2 id=&#34;测试更新完毕&#34;&gt;测试更新完毕。&lt;/h2&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;大概汇报下近况以及今年的计划。&lt;/p&gt;&#xA;&lt;p&gt;可以说是自从19年回家之后直到现在的时间，都让我觉得十分漫长。自身习惯了懒散的生活节奏之后，再想回到一个学生的状态真的很难。在无数遍调整心态之后，终于有了些“正在上学”的感觉。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Reading note - Soft skills - 01</title>
-      <link>http://localhost:1313/post/post_0002/</link>
+      <link>http://localhost:54623/post/post_0002/</link>
       <pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/post_0002/</guid>
+      <guid>http://localhost:54623/post/post_0002/</guid>
       <description>&lt;h2 id=&#34;第一篇-职业&#34;&gt;第一篇 职业&lt;/h2&gt;&#xA;&lt;h3 id=&#34;拥有商业心态&#34;&gt;拥有商业心态&lt;/h3&gt;&#xA;&lt;p&gt;把自己的软件开发事业/职业生涯当作一桩生意来对待。拥有这种心态对管理职业规划很重要，不要让自己的工作角色固化了自己的职业生涯，要把自己当成由自己独立运营的企业，把自己的雇主当作自己的客户。这样来看待雇佣关系会让人把自己所处的被动领工资地位转换成一个自我治理和自我引导的主动地位。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hosting Hugo on Github</title>
-      <link>http://localhost:1313/post/post_0001/</link>
+      <link>http://localhost:54623/post/post_0001/</link>
       <pubDate>Fri, 19 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/post_0001/</guid>
+      <guid>http://localhost:54623/post/post_0001/</guid>
       <description>&lt;!-- Contents --&gt;&#xD;&#xA;&lt;h2 id=&#34;前期准备&#34;&gt;前期准备&lt;/h2&gt;&#xA;&lt;p&gt;要在Github上部署静态博客，首先需要准备好：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Github账号&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/join&#34;&gt;Github免费注册&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;在本地开发环境安装Hugo并准备好要发布的网页&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://gohugo.io/getting-started/installing&#34;&gt;Hugo安装指南&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://gohugo.io/getting-started/quick-start/&#34;&gt;Hugo Quick Start: Create a Hugo site using the beautiful Ananke theme&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
