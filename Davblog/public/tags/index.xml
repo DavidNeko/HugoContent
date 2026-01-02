@@ -2,94 +2,94 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Dav Blog</title>
-    <link>http://localhost:54623/tags/</link>
+    <link>https://davidneko.github.io/tags/</link>
     <description>Recent content in Tags on Dav Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 24 Dec 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:54623/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://davidneko.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blog</title>
-      <link>http://localhost:54623/tags/blog/</link>
+      <link>https://davidneko.github.io/tags/blog/</link>
       <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:54623/tags/blog/</guid>
+      <guid>https://davidneko.github.io/tags/blog/</guid>
       <description></description>
     </item>
     <item>
       <title>Github</title>
-      <link>http://localhost:54623/tags/github/</link>
+      <link>https://davidneko.github.io/tags/github/</link>
       <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:54623/tags/github/</guid>
+      <guid>https://davidneko.github.io/tags/github/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo</title>
-      <link>http://localhost:54623/tags/hugo/</link>
+      <link>https://davidneko.github.io/tags/hugo/</link>
       <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:54623/tags/hugo/</guid>
+      <guid>https://davidneko.github.io/tags/hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>Programming Education</title>
-      <link>http://localhost:54623/tags/programming-education/</link>
+      <link>https://davidneko.github.io/tags/programming-education/</link>
       <pubDate>Sun, 25 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:54623/tags/programming-education/</guid>
+      <guid>https://davidneko.github.io/tags/programming-education/</guid>
       <description></description>
     </item>
     <item>
       <title>VR</title>
-      <link>http://localhost:54623/tags/vr/</link>
+      <link>https://davidneko.github.io/tags/vr/</link>
       <pubDate>Sun, 25 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:54623/tags/vr/</guid>
+      <guid>https://davidneko.github.io/tags/vr/</guid>
       <description></description>
     </item>
     <item>
       <title>Oculus</title>
-      <link>http://localhost:54623/tags/oculus/</link>
+      <link>https://davidneko.github.io/tags/oculus/</link>
       <pubDate>Thu, 22 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:54623/tags/oculus/</guid>
+      <guid>https://davidneko.github.io/tags/oculus/</guid>
       <description></description>
     </item>
     <item>
       <title>Japanese</title>
-      <link>http://localhost:54623/tags/japanese/</link>
+      <link>https://davidneko.github.io/tags/japanese/</link>
       <pubDate>Mon, 19 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:54623/tags/japanese/</guid>
+      <guid>https://davidneko.github.io/tags/japanese/</guid>
       <description></description>
     </item>
     <item>
       <title>Game Development</title>
-      <link>http://localhost:54623/tags/game-development/</link>
+      <link>https://davidneko.github.io/tags/game-development/</link>
       <pubDate>Sun, 18 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:54623/tags/game-development/</guid>
+      <guid>https://davidneko.github.io/tags/game-development/</guid>
       <description></description>
     </item>
     <item>
       <title>Computational Thinking</title>
-      <link>http://localhost:54623/tags/computational-thinking/</link>
+      <link>https://davidneko.github.io/tags/computational-thinking/</link>
       <pubDate>Sat, 17 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:54623/tags/computational-thinking/</guid>
+      <guid>https://davidneko.github.io/tags/computational-thinking/</guid>
       <description></description>
     </item>
     <item>
       <title>Books</title>
-      <link>http://localhost:54623/tags/books/</link>
+      <link>https://davidneko.github.io/tags/books/</link>
       <pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:54623/tags/books/</guid>
+      <guid>https://davidneko.github.io/tags/books/</guid>
       <description></description>
     </item>
     <item>
       <title>ReadingNote</title>
-      <link>http://localhost:54623/tags/readingnote/</link>
+      <link>https://davidneko.github.io/tags/readingnote/</link>
       <pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:54623/tags/readingnote/</guid>
+      <guid>https://davidneko.github.io/tags/readingnote/</guid>
       <description></description>
     </item>
     <item>
       <title>SoftSkills</title>
-      <link>http://localhost:54623/tags/softskills/</link>
+      <link>https://davidneko.github.io/tags/softskills/</link>
       <pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:54623/tags/softskills/</guid>
+      <guid>https://davidneko.github.io/tags/softskills/</guid>
       <description></description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Computational Thinking on Dav Blog</title>
-    <link>http://localhost:54623/tags/computational-thinking/</link>
+    <link>https://davidneko.github.io/tags/computational-thinking/</link>
     <description>Recent content in Computational Thinking on Dav Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 17 Apr 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:54623/tags/computational-thinking/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://davidneko.github.io/tags/computational-thinking/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>论文阅读笔记_001</title>
-      <link>http://localhost:54623/post/post_0004/</link>
+      <link>https://davidneko.github.io/post/post_0004/</link>
       <pubDate>Sat, 17 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:54623/post/post_0004/</guid>
+      <guid>https://davidneko.github.io/post/post_0004/</guid>
       <description>&lt;h2 id=&#34;computational-thinking-in-k12-a-review-of-the-state-of-the-field--k-12中的计算思维领域现状回顾&#34;&gt;Computational Thinking in K–12: A Review of the State of the Field &amp;mdash; K-12中的计算思维：领域现状回顾&lt;/h2&gt;&#xA;&lt;p&gt;K-12： 幼儿园+小学+中学教育合在一起的统称，多用于美国、加拿大以及澳大利亚的部分地区。&lt;/p&gt;</description>
     </item>
   </channel>
